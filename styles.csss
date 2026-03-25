@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6c1c1;
+    text-align: center;
+}
+
+.hero {
+    background-image: url("images/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.4);
+    padding: 20px;
+}
+
+.intro {
+    padding: 40px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #d9a7a7;
+    padding: 15px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.text {
+    padding: 40px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+}
